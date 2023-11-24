@@ -1,0 +1,17 @@
+.grid {
+  width: 90%;
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 10%);
+  /* grid-template-columns: repeat(auto-fit, 10%); */
+  background-image: url(image.jpeg);
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.grid-item {
+  min-height: 10px;
+  border: 1px solid grey;
+  aspect-ratio: 1;
+}
